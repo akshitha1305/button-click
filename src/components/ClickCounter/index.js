@@ -21,13 +21,15 @@ class ClickCounter extends Component {
             times
           </h1>
           <p className="para">Click the button to increase the count</p>
-          <button
-            type="button"
-            onClick={this.onClickingButton}
-            className="button"
-          >
-            Click Me!
-          </button>
+          <div className="but-container">
+            <button
+              type="button"
+              onClick={this.onClickingButton}
+              className="button"
+            >
+              Click Me!
+            </button>
+          </div>
         </div>
       </div>
     )
