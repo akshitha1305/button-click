@@ -1,0 +1,36 @@
+/* Write your CSS here */
+
+.bg-container {
+  height: 100vh;
+  margin: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.heading {
+  font-size: 50px;
+  font-family: 'Roboto';
+  text-align: center;
+  color: #2d3a35;
+}
+.para {
+  color: #2d3a35;
+  font-size: 24px;
+  text-align: center;
+}
+.span-el {
+  color: #c20a72;
+}
+.button {
+  color: #ffffff;
+  background-color: #007bff;
+  padding: 10px;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 6px;
+  outline: none;
+}
